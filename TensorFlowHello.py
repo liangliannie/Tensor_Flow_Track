@@ -1,4 +1,7 @@
 import tensorflow as tf
+# import google
+import os
+print(os.path)
 # tf.enable_eager_execution()
 # tf.add(1, 2)
 # hello = tf.constant('Hello, TensorFlow!')
@@ -23,6 +26,7 @@ import tensorflow as tf
 # model.fit(x_train, y_train, epochs=5)
 #
 # model.evaluate(x_test, y_test)
-
-from matplotlib_venn import venn2
-_ = venn2(subsets = (3, 2, 1))
+# 
+# from matplotlib_venn import venn2
+# _ = venn2(subsets = (3, 2, 1))
+# from pyspark.sql import SparkSession
